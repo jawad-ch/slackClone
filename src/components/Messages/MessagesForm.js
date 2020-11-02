@@ -41,7 +41,7 @@ class MessagesForm extends Component {
       };
 
       handelKeyDown = event =>{
-        if(event.keyCode == 13) {
+        if(event.keyCode === 13) {
           this.sendMessage();
         }
 

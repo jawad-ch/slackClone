@@ -41,7 +41,7 @@ class MetaPanel extends Component {
                 <Header as="h3" attached="top">
                     About # {channel && channel.name}
                 </Header>
-                <Accordion styled attached attached="true">
+                <Accordion styled attached={true}>
                     <Accordion.Title
                         active={activeIndex === 0}
                         index={0}
